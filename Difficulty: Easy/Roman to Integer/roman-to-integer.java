@@ -33,7 +33,6 @@ class Solution {
             else
                 result += current;
         }
-
         return result;
     }
 }
