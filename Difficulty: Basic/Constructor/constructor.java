@@ -1,13 +1,6 @@
-class User {
-
+class User{
     String name;
-
-    User() {
-        name = "Default";
-    }
-
-    public static void main(String[] args) {
-        User u = new User();
-        System.out.print(u.name);
+    public User(){
+        this.name="Defatult";
     }
 }
